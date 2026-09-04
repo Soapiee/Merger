@@ -62,7 +62,7 @@ public class ConnectListener implements Listener {
         Utils.consoleMsg("&aPlayer has unlocked " + playerData.getUnlockedProducers().size() + " producers.");
         if (playerData.getUnlockedProducers().isEmpty()) {
             Producer starterProducer = main.getItemsManager().getStarterProducer();
-            playerData.unlockProducer(starterProducer);
+            playerData.unlockProducer(main, starterProducer);
 //            playerData.getGameInventory().addProducerButton(new ProducerButton(main, starterProducer, 49));
         }
     }
