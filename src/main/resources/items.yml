@@ -1,0 +1,71 @@
+items:
+  rose:
+    type: block
+    value: poppy
+    display_name: "&cRose"
+    glowing: false
+    lore:
+      - "&6testing lore"
+  tulip:
+    type: block
+    value: orange_tulip
+    display_name: "&6Tulip"
+    glowing: false
+    lore:
+      - ""
+  allium:
+    type: block
+    value: allium
+    display_name: "&bAllium"
+    glowing: false
+    lore:
+      - ""
+  lilac:
+    type: block
+    value: lilac
+    display_name: "&5Lilac"
+    glowing: false
+    lore:
+      - ""
+  torchflower:
+    type: block
+    value: torchflower
+    display_name: "&6T&co&6r&cc&6h &fFlower"
+    glowing: true
+    lore:
+      - ""
+  seeds:
+    type: block
+    value: wheat_seeds
+    display_name: "&eSeeds"
+    glowing: false
+    lore:
+      - ""
+  pumpkin_seeds:
+    type: block
+    value: pumpkin_seeds
+    display_name: "&6Pumpkin Seeds"
+    glowing: false
+    lore:
+      - ""
+  pumpkin:
+    type: block
+    value: pumpkin
+    display_name: "&6Pumpkin"
+    glowing: false
+    lore:
+      - ""
+  carvedpumpkin:
+    type: block
+    value: carved_pumpkin
+    display_name: "&6Carved Pumpkin"
+    glowing: true
+    lore:
+      - ""
+  dye:
+    type: block
+    value: blue_dye
+    display_name: "&bBlue Dye"
+    glowing: false
+    lore:
+      - ""

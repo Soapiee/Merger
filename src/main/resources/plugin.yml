@@ -1,0 +1,27 @@
+name: Merger
+main: me.soapiee.merger.Merger
+version: 1.0.0
+author: Soapiee
+prefix: Merger
+
+dependencies: [ ]
+softdepend: [ "PlaceholderAPI"]
+api-version: 1.13
+
+commands:
+  amerge:
+    description: 'admin commands'
+    aliases: [ "amerger", "adminmerge" ]
+    usage: 'admin reload|contents'
+    permission: merger.admin
+  merge:
+    description: 'player commands'
+    aliases: [ "merger"]
+    usage: 'placeholder help'
+    permission: merger.player
+
+permissions:
+  merger.admin:
+    default: op
+  merger.player:
+    default: true

@@ -1,0 +1,51 @@
+producers:
+  flower_garden:
+    item:
+      type: block
+      value: flower_pot
+      display_name: "&2Flower Garden"
+      glowing: false
+      lore:
+        - "&6%max_uses%"
+        - "&6%overheat%"
+    upgrade_icon:
+      type: block
+      value: flower_pot
+      display_name: "&2Flower Garden &7- &a%cost%"
+      glowing: false
+      lore:
+        - "&aClick to unlock for"
+        - "&a%cost% coins"
+    settings:
+      overheat_count: 10 # uses
+      overheat_cooldown: 120 # in seconds, the time the producer is overheating
+      max_uses: -1 # until it despawns/dissapears
+      upgrade_cost: 100
+    produces:
+      - "rose;50"
+      - "seeds;40"
+  paint_brush:
+    item:
+      type: block
+      value: brush
+      display_name: "&dPaint Brush"
+      glowing: false
+      lore:
+        - "&6Max uses: &e%max_uses%"
+        - "&6Overheats in &e%overheat% uses"
+    upgrade_item:
+      type: block
+      value: brush
+      display_name: "&dPaint Brush &7- &a%cost%"
+      glowing: false
+      lore:
+        - "&aClick to unlock for"
+        - "&a%cost% coins"
+    settings:
+      overheat_count: 50 # uses
+      overheat_cooldown: 10 # in seconds, the time the producer is overheating
+      max_uses: -1 # until it despawns/dissapears
+      upgrade_cost: 100
+    produces:
+      - "red_dye;90"
+      - "red_wool;10"
