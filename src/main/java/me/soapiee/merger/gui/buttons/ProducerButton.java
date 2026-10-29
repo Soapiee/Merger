@@ -279,12 +279,16 @@ public class ProducerButton implements ButtonsHandler {
 
         for (String line : lore) {
             String string = line;
-            if (string.contains("%max_uses%")) string = string.replace("%max_uses%", String.valueOf(maxUses));
+            if (string.contains("%max_uses%")) string = string.replace("%max_uses%", getMaxUsesString());
             if (string.contains("%overheat%")) string = string.replace("%overheat%", String.valueOf(overHeatCount));
 
             updatedLore.add(Utils.addColour(string));
         }
 
         return updatedLore;
+    }
+
+    private String getMaxUsesString(){
+        return (maxUses == -1) ? "unlimited" : String.valueOf(maxUses);
     }
 }

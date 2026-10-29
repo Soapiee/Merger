@@ -69,3 +69,17 @@ items:
     glowing: false
     lore:
       - ""
+  red_dye:
+    type: block
+    value: red_dye
+    display_name: "&cRed Dye"
+    glowing: false
+    lore:
+      - ""
+  red_wool:
+    type: block
+    value: red_wool
+    display_name: "&cRed Wool"
+    glowing: false
+    lore:
+      - ""
